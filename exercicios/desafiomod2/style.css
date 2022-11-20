@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Tudo que em HTML é id no css se transforma em # (só pode um elemento com mesmo nome)
+Tudo que é class no CSS se transforma em . (podem varios elementos com o mesmo nome)
+id é mais importante que class
+podemos ter uma class e um id juntos ou duas class juntas
+*/
+body{
+    background-color: rgb(175, 224, 96);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(67, 116, 18);
+}
+h1#principal {
+    text-align: center;
+    color: #ffff;
+    background-color: rgb(5, 65, 5);
+    
+}
+h2{
+    color: green;
+}
+.basico{
+    color: rgb(94, 211, 94);
+    font-weight: bold;
+}
+.intermediario{
+    color: yellow;
+    font-weight: bold;
+}
+.avançado{
+    color: red;
+    font-weight: bold;
+}
+.destaque{
+    background-color: rgba(121, 32, 204, 0.507);
+}
