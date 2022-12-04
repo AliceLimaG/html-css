@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Iframe</title>
+    <style>
+        iframe{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testanto o uso de Iframe</h1>
+    <p>Acessando o site do 
+        <!--Tamanho padrão do Iframe é de 300x150-->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0"  height="300" width="300" scolling="yes"><!--O FRAMEBORDER SÓ ACEITA 0 OU 1, 0 SEM BORDA E 1 OU QUALQUER OUTRO NUMERO VAI SER 1PX DE BORDA-->
+            <a href="https://www.cursoemvideo.com"> Curso em Vídeo</a> <!--Caso o navegador nao seja compativel, aparece essa mensagem-->
+        </iframe> 
+        para aprender a programar</p>
+        <p>O site do <iframe src="https://www.jogos.com" frameborder="0"></iframe> também é muito legal</p>
+</body>
+</html>
