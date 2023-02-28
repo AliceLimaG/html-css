@@ -1,1 +1,1 @@
-Seu cadastro foi enviar
+Seu cadastro foi enviado
